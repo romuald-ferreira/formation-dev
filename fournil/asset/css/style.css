@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --creme: #f7efe5;
+  --brun: #6b3d1e;
+  --dore: #dda743;
+  --texte: #241b14;
+}
+
+body {
+  margin: 0;
+  font-family: "helvetica", "Arial", sans-serif;
+  line-height: 1.6;
+  color: var(--texte);
+  background-color: var(--creme);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: var(--brun);
+}
+h2 {
+  border-bottom: 3px solid var(--dore);
+  padding-bottom: 0.3rem;
+}
+header {
+  background: var(--brun);
+  padding: 1.5rem 2rem;
+}
+header h1 {
+  color: var(--creme);
+  margin: 0;
+}
+
+nav a {
+  color: var(--creme);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+nav a:hover,
+nav a:focus-visible {
+  color: var(--dore);
+}
+
+main {
+  padding: 2rem;
+}
+
+.produit {
+  background-color: #fff;
+  border: 1px solid #e6d7c3;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
